@@ -6,7 +6,7 @@ let btn = document.querySelector(".search button");
 const apikey = "4ede0d06f6cc955d87edc32bb0112b48";
 const apiurl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
-let arrCity = ["Mumbai", "Shanghai", "London", "Paris", "New York", "Dubai"];
+let arrCity = ["Mumbai", "Madrid", "London", "Paris", "New York", "Dubai"];
 
 const popularCityWeather = async (city) => {
 

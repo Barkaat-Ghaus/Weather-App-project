@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #154360;
+    background-color: black;
 
 }
 
@@ -14,14 +14,14 @@ nav {
     height: auto;
     padding: 5px 18px;
     text-align: center;
-    border-bottom: 4px solid yellow;
+    border-bottom: 4px solid white;
 
 }
 
 h1 {
 
     font-size: 3rem;
-    color: yellow;
+    color: white;
     font-style: italic;
 
 
@@ -37,12 +37,15 @@ form {
 }
 
 form input {
+    color: white;
     padding: 10px 20px;
     height: 30px;
     width: 26vw;
     font-size: 1.8rem;
     border-radius: 20px;
-    border: none;
+    border: 2px solid white;
+    outline: none;
+    background: transparent;
 }
 
 form button {
@@ -66,14 +69,14 @@ button img {
 
 .section1 {
     color: #f0f3f4;
-    background-color: #78281f;
+    background-color:#16161d;
     margin-left: 8.7%;
     height: 73vh;
     width: 65vw;
     display: flex;
     flex-direction: column;
     border-radius: 16px;
-    border: 2px solid yellow;
+    border: 2px solid white;
 }
 
 .section1 .info img {
@@ -139,8 +142,8 @@ span div {
     padding: 20px;
     font-size: xx-large;
     color: #f0f3f4;
-    background-color: #78281f;
-    border: 6px solid yellow;
+    background-color: #16161d;
+    border: 3px solid white;
     display: table;
 
 }
